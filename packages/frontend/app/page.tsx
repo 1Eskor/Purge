@@ -230,6 +230,7 @@ export default function Home() {
               <div className="flex items-center gap-4 text-left">
                 <img src="/purge_icon.png" alt="Logo" className="w-12 h-12 object-contain" />
                 <h1 className="font-[family-name:var(--font-michroma)] text-5xl text-white tracking-widest drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">PURGE</h1>
+                <span className="font-mono text-lg md:text-xl text-white tracking-[0.3em] uppercase animate-pulse ml-4 md:ml-8 pt-2">Launching Soon</span>
               </div>
 
               {/* Navigation */}
