@@ -1,0 +1,17 @@
+# Security: Never push secrets
+.env
+*.log
+secret.json
+*keypair.json
+
+# Large Binaries: These stay on your computer, not GitHub
+solana-release/
+*.tar.bz2
+*.tar.gz
+node_modules/
+
+# Build Artifacts
+out/
+cache/
+target/
+dist/

@@ -1,0 +1,30 @@
+# pack-refs with: peeled fully-peeled sorted 
+54a0d3838a1fefc9acc3bf5ffca8010ce7ec47dc refs/remotes/origin/ReadLib
+a67ddda7c5e5e31f568e4f44a2ca7ca8bf9cf779 refs/remotes/origin/aptos-v2
+50a0c04c18c52fa9001ae0f260a0f023c56f1c5e refs/remotes/origin/aptos-v2-dec-20
+eb2172e80572af80f1b06abd21577415c1eea7c0 refs/remotes/origin/aptos-v2-dec-31
+780bdc5b414671be8287e07b0221185621f31488 refs/remotes/origin/aptos-v2-jan-6
+7a86d0c24a959a6b89bf72690f89514c58a58d40 refs/remotes/origin/audit-link
+15f88e730031ec50511feace481e0b66b02eb7a6 refs/remotes/origin/bug-token2022
+41d381ef856f549f6337754602edb1c0b5d7478b refs/remotes/origin/chore/redirect_oft_and_oapp_to_devtools
+4d777ac483abb44a32d185e1f31e45afb184b2ee refs/remotes/origin/chore/solana_deprecation_notice
+d0d06b8037c842a4240d818926377e3d9774a13d refs/remotes/origin/chore/update-solana-comment
+37a2235e825fff94bca1774ab30d6823b727cb18 refs/remotes/origin/feat/anchor-0.32.1
+93a458c09bd398b4c0fce69e5838243faef559e5 refs/remotes/origin/feat/solana-lzreceive-v2
+c08ed5689042b42e517edf7f077afee4f3c4c0fc refs/remotes/origin/fix-ton-base
+99fdd856804da7bfded3107ffb1dfc05de3774f5 refs/remotes/origin/gx/upgrade-lint-build-workflow
+cfeed74533c72555f97fde762b967de7733a54a7 refs/remotes/origin/iota/code
+e2958f55d07b1c8fe2299e7571ae03a4d2a1029f refs/remotes/origin/iota/common-oft
+3624e00eceb76bd8e0e2a862a7c9dd97aa2714fa refs/remotes/origin/ken/solana-helper-dependency
+ab9b083410b9359285a5756807e1b6145d4711a7 refs/remotes/origin/main
+41a6ea67b1dbf9e5e61028c7e0bcb6bdfa63a516 refs/remotes/origin/solana/sync-executor
+1a2c0169af5276b4b0eb51185ed03c9b8805a4cd refs/remotes/origin/sui-vm
+1516763fc4ba3f57feef42b61bc2a9ace8ee6ad1 refs/remotes/origin/sui/update-code
+4b1cbe778028dee62f9bffc85f61484593301755 refs/remotes/origin/sync/latest-code-2024-06-27
+f6e6c668604fbcb107b8e0ad10cab8999293df0f refs/tags/anchor-v0.31.1
+^2ff4988f85b5c94032eb71bbc4073e69c078179d
+d68b9c8a4a40bc93b0a9c4bc05e8a61f0e7cd7f3 refs/tags/audit
+^0990059e3ee61ea95f45011cf7284243531fb4c3
+88428755be6caa71cb1d2926141d73c8989296b5 refs/tags/oft-solana-legacy
+be8882e211b8682b95ec56fd036f4724948244bc refs/tags/testnet-v1.0
+^0f598023ccbfa14164076563a2a257d4a7f808af

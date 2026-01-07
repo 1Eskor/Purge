@@ -1,0 +1,20 @@
+﻿=========================================
+   PURGE PROGRAM INITIALIZATION SCRIPT   
+=========================================
+
+Wallet balance: 0.09646396 SOL
+
+Installing dependencies...
+
+Running initialization...
+=========================================
+Loading admin keypair...
+Admin: CzdSdctKiZ5E9uymrUTq1RnWBp7JEmMAN8BQiurMR1up
+Program loaded: EB2wT2NmDpscd5PRQnVNnidQzHU9QGAEKA4u6NjVx6Re
+Config PDA: 36aPZtn7Yd7qY5GmDiNTEeKFPHHHJV9wQS7dY2FekEYM
+Vault PDA: 6UrCdRcfrT6xE3iPJu3yEfhLnBJswrPT3xe9vGvss6de
+
+Γ£à Program already initialized!
+Config exists at: 36aPZtn7Yd7qY5GmDiNTEeKFPHHHJV9wQS7dY2FekEYM
+
+Done!

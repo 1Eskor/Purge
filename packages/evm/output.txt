@@ -1,0 +1,25 @@
+(node:42800) ExperimentalWarning: CommonJS module C:\nvm\v23.3.0\node_modules\npm\node_modules\debug\src\node.js is loading ES Module C:\nvm\v23.3.0\node_modules\npm\node_modules\supports-color\index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[33m[1mWARNING:[22m[39m You are currently using Node.js v23.3.0, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions
+
+
+[31mAn unexpected error occurred:[39m
+
+Error: Cannot find module 'C:\Users\zachs\.gemini\antigravity\scratch\purge\packages\evm\node_modules\hardhat\types\network' imported from C:\Users\zachs\.gemini\antigravity\scratch\purge\packages\evm\node_modules\@nomicfoundation\hardhat-ethers\dist\src\type-extensions.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:654:12)
+    at ModuleLoader.#cachedDefaultResolve (node:internal/modules/esm/loader:603:25)
+    at ModuleLoader.getModuleJobForRequire (node:internal/modules/esm/loader:353:53)
+    at new ModuleJobSync (node:internal/modules/esm/module_job:341:34)
+    at ModuleLoader.getModuleJobForRequire (node:internal/modules/esm/loader:413:11)
+    at new ModuleJobSync (node:internal/modules/esm/module_job:341:34)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:326:11) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/zachs/.gemini/antigravity/scratch/purge/packages/evm/node_modules/hardhat/types/network'
+}
+(node:46040) ExperimentalWarning: CommonJS module C:\Users\zachs\.gemini\antigravity\scratch\purge\packages\evm\hardhat.config.js is loading ES Module C:\Users\zachs\.gemini\antigravity\scratch\purge\packages\evm\node_modules\@nomicfoundation\hardhat-ethers\dist\src\index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)

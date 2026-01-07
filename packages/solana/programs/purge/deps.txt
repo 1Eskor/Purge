@@ -1,0 +1,374 @@
+solana-program v1.18.26
+├── ark-bn254 v0.4.0
+│   ├── ark-ec v0.4.2
+│   │   ├── ark-ff v0.4.2
+│   │   │   ├── ark-ff-asm v0.4.2 (proc-macro)
+│   │   │   │   ├── quote v1.0.43
+│   │   │   │   │   └── proc-macro2 v1.0.105
+│   │   │   │   │       └── unicode-ident v1.0.22
+│   │   │   │   └── syn v1.0.109
+│   │   │   │       ├── proc-macro2 v1.0.105 (*)
+│   │   │   │       ├── quote v1.0.43 (*)
+│   │   │   │       └── unicode-ident v1.0.22
+│   │   │   ├── ark-ff-macros v0.4.2 (proc-macro)
+│   │   │   │   ├── num-bigint v0.4.6
+│   │   │   │   │   ├── num-integer v0.1.46
+│   │   │   │   │   │   └── num-traits v0.2.19
+│   │   │   │   │   │       [build-dependencies]
+│   │   │   │   │   │       └── autocfg v1.5.0
+│   │   │   │   │   └── num-traits v0.2.19 (*)
+│   │   │   │   ├── num-traits v0.2.19 (*)
+│   │   │   │   ├── proc-macro2 v1.0.105 (*)
+│   │   │   │   ├── quote v1.0.43 (*)
+│   │   │   │   └── syn v1.0.109 (*)
+│   │   │   ├── ark-serialize v0.4.2
+│   │   │   │   ├── ark-serialize-derive v0.4.2 (proc-macro)
+│   │   │   │   │   ├── proc-macro2 v1.0.105 (*)
+│   │   │   │   │   ├── quote v1.0.43 (*)
+│   │   │   │   │   └── syn v1.0.109 (*)
+│   │   │   │   ├── ark-std v0.4.0
+│   │   │   │   │   ├── num-traits v0.2.19
+│   │   │   │   │   │   [build-dependencies]
+│   │   │   │   │   │   └── autocfg v1.5.0
+│   │   │   │   │   └── rand v0.8.5
+│   │   │   │   │       ├── libc v0.2.179
+│   │   │   │   │       ├── rand_chacha v0.3.1
+│   │   │   │   │       │   ├── ppv-lite86 v0.2.21
+│   │   │   │   │       │   │   └── zerocopy v0.8.31
+│   │   │   │   │       │   └── rand_core v0.6.4
+│   │   │   │   │       │       └── getrandom v0.2.16
+│   │   │   │   │       │           ├── cfg-if v1.0.4
+│   │   │   │   │       │           └── libc v0.2.179
+│   │   │   │   │       └── rand_core v0.6.4 (*)
+│   │   │   │   ├── digest v0.10.7
+│   │   │   │   │   ├── block-buffer v0.10.4
+│   │   │   │   │   │   └── generic-array v0.14.7
+│   │   │   │   │   │       └── typenum v1.19.0
+│   │   │   │   │   │       [build-dependencies]
+│   │   │   │   │   │       └── version_check v0.9.5
+│   │   │   │   │   ├── crypto-common v0.1.7
+│   │   │   │   │   │   ├── generic-array v0.14.7 (*)
+│   │   │   │   │   │   └── typenum v1.19.0
+│   │   │   │   │   └── subtle v2.4.1
+│   │   │   │   └── num-bigint v0.4.6
+│   │   │   │       ├── num-integer v0.1.46
+│   │   │   │       │   └── num-traits v0.2.19 (*)
+│   │   │   │       └── num-traits v0.2.19 (*)
+│   │   │   ├── ark-std v0.4.0 (*)
+│   │   │   ├── derivative v2.2.0 (proc-macro)
+│   │   │   │   ├── proc-macro2 v1.0.105 (*)
+│   │   │   │   ├── quote v1.0.43 (*)
+│   │   │   │   └── syn v1.0.109 (*)
+│   │   │   ├── digest v0.10.7 (*)
+│   │   │   ├── itertools v0.10.5
+│   │   │   │   └── either v1.15.0
+│   │   │   ├── num-bigint v0.4.6 (*)
+│   │   │   ├── num-traits v0.2.19 (*)
+│   │   │   ├── paste v1.0.15 (proc-macro)
+│   │   │   └── zeroize v1.3.0
+│   │   │       └── zeroize_derive v1.4.3 (proc-macro)
+│   │   │           ├── proc-macro2 v1.0.105 (*)
+│   │   │           ├── quote v1.0.43 (*)
+│   │   │           └── syn v2.0.113
+│   │   │               ├── proc-macro2 v1.0.105 (*)
+│   │   │               ├── quote v1.0.43 (*)
+│   │   │               └── unicode-ident v1.0.22
+│   │   │   [build-dependencies]
+│   │   │   └── rustc_version v0.4.1
+│   │   │       └── semver v1.0.27
+│   │   ├── ark-poly v0.4.2
+│   │   │   ├── ark-ff v0.4.2 (*)
+│   │   │   ├── ark-serialize v0.4.2 (*)
+│   │   │   ├── ark-std v0.4.0 (*)
+│   │   │   ├── derivative v2.2.0 (proc-macro) (*)
+│   │   │   └── hashbrown v0.13.2
+│   │   │       └── ahash v0.8.12
+│   │   │           ├── cfg-if v1.0.4
+│   │   │           ├── once_cell v1.21.3
+│   │   │           └── zerocopy v0.8.31
+│   │   │           [build-dependencies]
+│   │   │           └── version_check v0.9.5
+│   │   ├── ark-serialize v0.4.2 (*)
+│   │   ├── ark-std v0.4.0 (*)
+│   │   ├── derivative v2.2.0 (proc-macro) (*)
+│   │   ├── hashbrown v0.13.2 (*)
+│   │   ├── itertools v0.10.5 (*)
+│   │   ├── num-traits v0.2.19 (*)
+│   │   └── zeroize v1.3.0 (*)
+│   ├── ark-ff v0.4.2 (*)
+│   └── ark-std v0.4.0 (*)
+├── ark-ec v0.4.2 (*)
+├── ark-ff v0.4.2 (*)
+├── ark-serialize v0.4.2 (*)
+├── base64 v0.21.7
+├── bincode v1.3.3
+│   └── serde v1.0.228
+│       ├── serde_core v1.0.228
+│       └── serde_derive v1.0.228 (proc-macro)
+│           ├── proc-macro2 v1.0.105 (*)
+│           ├── quote v1.0.43 (*)
+│           └── syn v2.0.113 (*)
+├── bitflags v2.10.0
+│   └── serde_core v1.0.228
+├── blake3 v1.8.2
+│   ├── arrayref v0.3.9
+│   ├── arrayvec v0.7.6
+│   ├── cfg-if v1.0.4
+│   ├── constant_time_eq v0.3.1
+│   └── digest v0.10.7 (*)
+│   [build-dependencies]
+│   └── cc v1.2.51
+│       ├── find-msvc-tools v0.1.6
+│       ├── jobserver v0.1.34
+│       │   └── libc v0.2.179
+│       ├── libc v0.2.179
+│       └── shlex v1.3.0
+├── borsh v0.9.3
+│   ├── borsh-derive v0.9.3 (proc-macro)
+│   │   ├── borsh-derive-internal v0.9.3
+│   │   │   ├── proc-macro2 v1.0.105 (*)
+│   │   │   ├── quote v1.0.43 (*)
+│   │   │   └── syn v1.0.109 (*)
+│   │   ├── borsh-schema-derive-internal v0.9.3
+│   │   │   ├── proc-macro2 v1.0.105 (*)
+│   │   │   ├── quote v1.0.43 (*)
+│   │   │   └── syn v1.0.109 (*)
+│   │   ├── proc-macro-crate v0.1.5
+│   │   │   └── toml v0.5.11
+│   │   │       └── serde v1.0.228
+│   │   │           ├── serde_core v1.0.228
+│   │   │           └── serde_derive v1.0.228 (proc-macro) (*)
+│   │   ├── proc-macro2 v1.0.105 (*)
+│   │   └── syn v1.0.109 (*)
+│   └── hashbrown v0.11.2
+│       └── ahash v0.7.8
+│           ├── getrandom v0.2.16 (*)
+│           └── once_cell v1.21.3
+│           [build-dependencies]
+│           └── version_check v0.9.5
+├── borsh v0.10.4
+│   ├── borsh-derive v0.10.4 (proc-macro)
+│   │   ├── borsh-derive-internal v0.10.4
+│   │   │   ├── proc-macro2 v1.0.105 (*)
+│   │   │   ├── quote v1.0.43 (*)
+│   │   │   └── syn v1.0.109 (*)
+│   │   ├── borsh-schema-derive-internal v0.10.4
+│   │   │   ├── proc-macro2 v1.0.105 (*)
+│   │   │   ├── quote v1.0.43 (*)
+│   │   │   └── syn v1.0.109 (*)
+│   │   ├── proc-macro-crate v0.1.5 (*)
+│   │   ├── proc-macro2 v1.0.105 (*)
+│   │   └── syn v1.0.109 (*)
+│   └── hashbrown v0.13.2 (*)
+├── borsh v1.6.0
+│   └── borsh-derive v1.6.0 (proc-macro)
+│       ├── once_cell v1.21.3
+│       ├── proc-macro-crate v3.4.0
+│       │   └── toml_edit v0.23.10+spec-1.0.0
+│       │       ├── indexmap v2.12.1
+│       │       │   ├── equivalent v1.0.2
+│       │       │   └── hashbrown v0.16.1
+│       │       ├── toml_datetime v0.7.5+spec-1.1.0
+│       │       ├── toml_parser v1.0.6+spec-1.1.0
+│       │       │   └── winnow v0.7.14
+│       │       └── winnow v0.7.14
+│       ├── proc-macro2 v1.0.105 (*)
+│       ├── quote v1.0.43 (*)
+│       └── syn v2.0.113 (*)
+│   [build-dependencies]
+│   └── cfg_aliases v0.2.1
+├── bs58 v0.4.0
+├── bv v0.11.1
+│   └── serde v1.0.228 (*)
+│   [build-dependencies]
+│   └── feature-probe v0.1.1
+├── bytemuck v1.24.0
+│   └── bytemuck_derive v1.10.2 (proc-macro)
+│       ├── proc-macro2 v1.0.105 (*)
+│       ├── quote v1.0.43 (*)
+│       └── syn v2.0.113 (*)
+├── curve25519-dalek v3.2.1
+│   ├── byteorder v1.5.0
+│   ├── digest v0.9.0
+│   │   └── generic-array v0.14.7
+│   │       ├── serde v1.0.228 (*)
+│   │       └── typenum v1.19.0
+│   │       [build-dependencies]
+│   │       └── version_check v0.9.5
+│   ├── rand_core v0.5.1
+│   │   └── getrandom v0.1.16
+│   │       ├── cfg-if v1.0.4
+│   │       └── libc v0.2.179
+│   ├── serde v1.0.228 (*)
+│   ├── subtle v2.4.1
+│   └── zeroize v1.3.0 (*)
+├── itertools v0.10.5 (*)
+├── lazy_static v1.5.0
+├── libc v0.2.179
+├── libsecp256k1 v0.6.0
+│   ├── arrayref v0.3.9
+│   ├── base64 v0.12.3
+│   ├── digest v0.9.0 (*)
+│   ├── hmac-drbg v0.3.0
+│   │   ├── digest v0.9.0 (*)
+│   │   ├── generic-array v0.14.7 (*)
+│   │   └── hmac v0.8.1
+│   │       ├── crypto-mac v0.8.0
+│   │       │   ├── generic-array v0.14.7 (*)
+│   │       │   └── subtle v2.4.1
+│   │       └── digest v0.9.0 (*)
+│   ├── libsecp256k1-core v0.2.2
+│   │   ├── crunchy v0.2.4
+│   │   ├── digest v0.9.0 (*)
+│   │   └── subtle v2.4.1
+│   ├── rand v0.7.3
+│   │   ├── getrandom v0.1.16 (*)
+│   │   ├── libc v0.2.179
+│   │   ├── rand_chacha v0.2.2
+│   │   │   ├── ppv-lite86 v0.2.21 (*)
+│   │   │   └── rand_core v0.5.1 (*)
+│   │   └── rand_core v0.5.1 (*)
+│   ├── serde v1.0.228 (*)
+│   ├── sha2 v0.9.9
+│   │   ├── block-buffer v0.9.0
+│   │   │   ├── block-padding v0.2.1
+│   │   │   └── generic-array v0.14.7 (*)
+│   │   ├── cfg-if v1.0.4
+│   │   ├── cpufeatures v0.2.17
+│   │   ├── digest v0.9.0 (*)
+│   │   └── opaque-debug v0.3.1
+│   └── typenum v1.19.0
+│   [build-dependencies]
+│   ├── libsecp256k1-gen-ecmult v0.2.1
+│   │   └── libsecp256k1-core v0.2.2
+│   │       ├── crunchy v0.2.4
+│   │       ├── digest v0.9.0
+│   │       │   └── generic-array v0.14.7 (*)
+│   │       └── subtle v2.4.1
+│   └── libsecp256k1-gen-genmult v0.2.1
+│       └── libsecp256k1-core v0.2.2 (*)
+├── light-poseidon v0.2.0
+│   ├── ark-bn254 v0.4.0 (*)
+│   ├── ark-ff v0.4.2 (*)
+│   ├── num-bigint v0.4.6 (*)
+│   └── thiserror v1.0.69
+│       └── thiserror-impl v1.0.69 (proc-macro)
+│           ├── proc-macro2 v1.0.105 (*)
+│           ├── quote v1.0.43 (*)
+│           └── syn v2.0.113 (*)
+├── log v0.4.29
+├── memoffset v0.9.1
+│   [build-dependencies]
+│   └── autocfg v1.5.0
+├── num-bigint v0.4.6 (*)
+├── num-derive v0.4.2 (proc-macro)
+│   ├── proc-macro2 v1.0.105 (*)
+│   ├── quote v1.0.43 (*)
+│   └── syn v2.0.113 (*)
+├── num-traits v0.2.19 (*)
+├── rand v0.8.5 (*)
+├── rustversion v1.0.22 (proc-macro)
+├── serde v1.0.228 (*)
+├── serde_bytes v0.11.19
+│   └── serde_core v1.0.228
+├── serde_derive v1.0.228 (proc-macro) (*)
+├── serde_json v1.0.148
+│   ├── itoa v1.0.17
+│   ├── memchr v2.7.6
+│   ├── serde_core v1.0.228
+│   └── zmij v1.0.12
+├── sha2 v0.10.9
+│   ├── cfg-if v1.0.4
+│   ├── cpufeatures v0.2.17
+│   └── digest v0.10.7
+│       ├── block-buffer v0.10.4 (*)
+│       └── crypto-common v0.1.7 (*)
+├── sha3 v0.10.8
+│   ├── digest v0.10.7 (*)
+│   └── keccak v0.1.5
+├── solana-frozen-abi v1.18.26
+│   ├── block-buffer v0.10.4 (*)
+│   ├── bs58 v0.4.0
+│   ├── bv v0.11.1 (*)
+│   ├── either v1.15.0
+│   ├── generic-array v0.14.7 (*)
+│   ├── im v15.1.0
+│   │   ├── bitmaps v2.1.0
+│   │   │   └── typenum v1.19.0
+│   │   ├── rand_core v0.6.4 (*)
+│   │   ├── rand_xoshiro v0.6.0
+│   │   │   └── rand_core v0.6.4 (*)
+│   │   ├── rayon v1.11.0
+│   │   │   ├── either v1.15.0
+│   │   │   └── rayon-core v1.13.0
+│   │   │       ├── crossbeam-deque v0.8.6
+│   │   │       │   ├── crossbeam-epoch v0.9.18
+│   │   │       │   │   └── crossbeam-utils v0.8.21
+│   │   │       │   └── crossbeam-utils v0.8.21
+│   │   │       └── crossbeam-utils v0.8.21
+│   │   ├── serde v1.0.228 (*)
+│   │   ├── sized-chunks v0.6.5
+│   │   │   ├── bitmaps v2.1.0 (*)
+│   │   │   └── typenum v1.19.0
+│   │   └── typenum v1.19.0
+│   │   [build-dependencies]
+│   │   └── version_check v0.9.5
+│   ├── lazy_static v1.5.0
+│   ├── log v0.4.29
+│   ├── memmap2 v0.5.10
+│   │   └── libc v0.2.179
+│   ├── serde v1.0.228 (*)
+│   ├── serde_bytes v0.11.19 (*)
+│   ├── serde_derive v1.0.228 (proc-macro) (*)
+│   ├── sha2 v0.10.9 (*)
+│   ├── solana-frozen-abi-macro v1.18.26 (proc-macro)
+│   │   ├── proc-macro2 v1.0.105 (*)
+│   │   ├── quote v1.0.43 (*)
+│   │   └── syn v2.0.113 (*)
+│   │   [build-dependencies]
+│   │   └── rustc_version v0.4.1 (*)
+│   ├── subtle v2.4.1
+│   └── thiserror v1.0.69 (*)
+│   [build-dependencies]
+│   └── rustc_version v0.4.1 (*)
+├── solana-frozen-abi-macro v1.18.26 (proc-macro) (*)
+├── solana-sdk-macro v1.18.26 (proc-macro)
+│   ├── bs58 v0.4.0
+│   ├── proc-macro2 v1.0.105 (*)
+│   ├── quote v1.0.43 (*)
+│   ├── rustversion v1.0.22 (proc-macro)
+│   └── syn v2.0.113 (*)
+├── thiserror v1.0.69 (*)
+├── tiny-bip39 v0.8.2
+│   ├── anyhow v1.0.100
+│   ├── hmac v0.8.1 (*)
+│   ├── once_cell v1.21.3
+│   ├── pbkdf2 v0.4.0
+│   │   └── crypto-mac v0.8.0 (*)
+│   ├── rand v0.7.3 (*)
+│   ├── rustc-hash v1.1.0
+│   ├── sha2 v0.9.9 (*)
+│   ├── thiserror v1.0.69 (*)
+│   ├── unicode-normalization v0.1.25
+│   │   └── tinyvec v1.10.0
+│   │       └── tinyvec_macros v0.1.1
+│   └── zeroize v1.3.0 (*)
+├── wasm-bindgen v0.2.106
+│   ├── cfg-if v1.0.4
+│   ├── once_cell v1.21.3
+│   ├── wasm-bindgen-macro v0.2.106 (proc-macro)
+│   │   ├── quote v1.0.43 (*)
+│   │   └── wasm-bindgen-macro-support v0.2.106
+│   │       ├── bumpalo v3.19.1
+│   │       ├── proc-macro2 v1.0.105 (*)
+│   │       ├── quote v1.0.43 (*)
+│   │       ├── syn v2.0.113 (*)
+│   │       └── wasm-bindgen-shared v0.2.106
+│   │           └── unicode-ident v1.0.22
+│   └── wasm-bindgen-shared v0.2.106 (*)
+│   [build-dependencies]
+│   └── rustversion v1.0.22 (proc-macro)
+└── zeroize v1.3.0 (*)
+[build-dependencies]
+├── cc v1.2.51 (*)
+└── rustc_version v0.4.1 (*)
