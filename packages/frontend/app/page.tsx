@@ -214,7 +214,7 @@ export default function Home() {
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex flex-col items-center gap-8 pointer-events-auto p-6">
             <h1 className="text-6xl md:text-9xl font-[family-name:var(--font-michroma)] text-white tracking-widest animate-pulse drop-shadow-[0_0_20px_rgba(255,255,255,0.5)]">PURGE</h1>
             <p className="text-white/60 text-center max-w-md">
-              Sacrifice your failed investments. Receive $PRG.
+              The future is unified.
             </p>
             <button
               onClick={() => setEntered(true)}
